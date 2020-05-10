@@ -16,6 +16,8 @@ body{
 img{
 max-width:100%;
 border:1px solid block;
+border-radius:50% !important;
+object-fit: cover;
 
 }
 .title{
@@ -102,17 +104,19 @@ main
 @media screen and (max-width:768px){
   .about_area-img{
     width:100%;
+    
   }
   .about_area-description{
     width:100%;
   }
+ 
   
   
 }
 
 
 .fab{
-  font-size:30px;
+  font-size:60px;
 }
 
 .about_area-description-icon{
@@ -127,6 +131,23 @@ h3{
 
 .service-icon{
   text-align:center;
+}
+
+.fa-youtube{
+  color:#cd201f;
+}
+
+.fa-html5{
+ color: #FF9900;
+
+}
+
+.fa-css3-alt{
+color:#6666FF
+}
+
+.fa-js-square{
+  color:#FF0000
 }
 
 
@@ -149,6 +170,7 @@ input{
   display:block;
   width:100%;
   border:1px solid black;
+  
 }
 
 textarea{
@@ -165,7 +187,7 @@ border:1px solid black;
 button{
   background-color:black;
   color:white;
-  width:250px;
+  width:100%;
   padding:16px;
   text-align:center;
   display:block;
@@ -188,3 +210,5 @@ footer{
   
   
 }
+
+--------
